@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LAMP</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>LAMP</h1>
+    <h2>Faça alterações na lâmpada.</h2>
+    <p>Aplicação criada em JavaScript com a finalidade de aplicar conhecimentos na linguagem.</p>
+
+    <img id="lamp" src="./img/broken_lamp.jpg" alt="Lâmpada usada na aplicação em JS." width="200px" height="300px">
+
+    <br>
+
+    <button type="button" onClick="document.getElementById('lamp').src='./img/broken_lamp.jpg'">Quebrar lâmpada</button>
+    <button type="button" onClick="document.getElementById('lamp').src='./img/right_lamp.jpg'">Consertar lâmpada</button>
+    <button type="button" onClick="document.getElementById('lamp').src='./img/bright_lamp.jpg'">Acender lâmpada</button>
+
+    <hr>
+    <p>&copy 2025 - Curso de Lógica de Programação para Desenvolvimento Web | <small>Profº Samuel Pires</small></p>
+
+	<script src="index.js"></script>
+  </body>
+</html>
